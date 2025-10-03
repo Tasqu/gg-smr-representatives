@@ -10,6 +10,7 @@ using [TSAM](https://github.com/FZJ-IEK3-VSA/tsam).
 ## Key contents
 
 1. `aggregation-testing.ipynb` tests TSAM capabilities in preparation for eventually generating representatives.
+2. `representative-period-processing.ipynb` creates representative periods for NE-model.
 
 
 ## Setup
@@ -21,11 +22,20 @@ The included scripts require three major components:
 
 Please refer to their respective installation instructions for how to set each component up.
 Note that the NE-model runs in its own python environment, which we don't need.
-For the included scripts, I recommend using the `tsam_env` as a basis,
-while installing `GAMS transfer ` into that environment.
+For the included scripts, I recommend using the `tsam_env` from the [TSAM](https://github.com/FZJ-IEK3-VSA/tsam) installation instructions as a basis,
+and adding `GAMS transfer` into that environment.
+The [`ipykernel` package](https://pypi.org/project/ipykernel/) also needs to be installed in that enviroment to run the included Jupyter notebooks.
+
+
+## Use
+
+The scripts for processing the representative periods are written as Jupyter notebooks.
+For the representative period aggregation proper, refer to the `representative-period-processing.ipynb`, while `aggregation-testing.ipynb` is a simpler example I used when initially testing TSAM and its suitability for this purpose.
 
 
 ## Licence
+
+Copyright (c) 2025 Topi Rasku and VTT Technical Research Centre of Finland Ltd.
 
 All rights reserved (for now).
 

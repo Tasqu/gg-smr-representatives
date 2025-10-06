@@ -16,7 +16,6 @@ def run_hypertune(year_agg_tuple, reduction_factor):
 
 # Run hypertuning in parallel.
 def parallel_hypertuning(tsam_dict, reduction_factor, num_workers):
-    num_workers = multiprocessing.cpu_count() - 1  # Leave one processor free.
     with multiprocessing.Pool(num_workers) as pool:
         results = pool.starmap(
             run_hypertune,
@@ -24,4 +23,15 @@ def parallel_hypertuning(tsam_dict, reduction_factor, num_workers):
                 tsam_dict.items(), [reduction_factor], fillvalue=reduction_factor
             ),
         )
-    return results
+    return {year: result for (year, result) in results}
+
+
+# Parallel TSAM diagnostics
+def run_diagnostics(year_agg_tuple):
+    return (year_agg_tuple[0], year_agg_tuple[1].totalAccuracyIndicators())
+
+
+def parallel_diagnostics(tsam_dict, num_workers):
+    with multiprocessing.Pool(num_workers) as pool:
+        results = pool.map(run_diagnostics, tsam_dict.items())
+    return {year: result for (year, result) in results}

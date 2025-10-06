@@ -42,7 +42,7 @@ All rights reserved (for now).
 
 ## Acknowledgements
 
-As per the request in the [TSAM](https://github.com/FZJ-IEK3-VSA/tsam) repository:
+As per the citation request in the [TSAM](https://github.com/FZJ-IEK3-VSA/tsam) repository:
 
 >Maximilian Hoffmann, Leander Kotzur, Detlef Stolten, "The Pareto-optimal temporal aggregation of energy system models", Applied Energy, Volume 315, 2022, 119029, ISSN 306-2619, https://doi.org/10.1016/j.apenergy.2022.119029.
 

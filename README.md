@@ -32,9 +32,9 @@ The [`ipykernel` package](https://pypi.org/project/ipykernel/) also needs to be 
 ## Use
 
 The scripts for processing the representative periods are written as Jupyter notebooks.
-For the representative period aggregation proper, refer to the `representative-period-processing.ipynb`.
-`aggregation-testing.ipynb` is a simpler example I used when initially testing TSAM and its suitability for this purpose.
-Meanwhile, `ne-model-hypertuning.ipynb` is a script I wrote for examining the representative period selection hypertuning to see what kind of solutions TSAM recommends should be used as the periods.
+1. For the representative period aggregation proper, refer to the `representative-period-processing.ipynb`.
+2. `aggregation-testing.ipynb` is a simpler example I used when initially testing TSAM and its suitability for this purpose.
+3. `ne-model-hypertuning.ipynb` is a script I wrote for examining the representative period selection hypertuning to see what kind of solutions TSAM recommends should be used as the periods.
 
 
 ## Licence

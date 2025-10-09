@@ -10,7 +10,9 @@ using [TSAM](https://github.com/FZJ-IEK3-VSA/tsam).
 ## Key contents
 
 1. `aggregation-testing.ipynb` tests TSAM capabilities in preparation for eventually generating representatives.
-2. `representative-period-processing.ipynb` creates representative periods for NE-model.
+2. `multihyper.py` contains parallelized functions for speeding up some calculations.
+3. `ne-model-hypertuning.ipynb` tests hypertuning of NE-model representaive period selection.
+4. `representative-period-processing.ipynb` creates representative periods for the NE-model.
 
 
 ## Setup
@@ -30,7 +32,9 @@ The [`ipykernel` package](https://pypi.org/project/ipykernel/) also needs to be 
 ## Use
 
 The scripts for processing the representative periods are written as Jupyter notebooks.
-For the representative period aggregation proper, refer to the `representative-period-processing.ipynb`, while `aggregation-testing.ipynb` is a simpler example I used when initially testing TSAM and its suitability for this purpose.
+For the representative period aggregation proper, refer to the `representative-period-processing.ipynb`.
+`aggregation-testing.ipynb` is a simpler example I used when initially testing TSAM and its suitability for this purpose.
+Meanwhile, `ne-model-hypertuning.ipynb` is a script I wrote for examining the representative period selection hypertuning to see what kind of solutions TSAM recommends should be used as the periods.
 
 
 ## Licence

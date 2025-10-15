@@ -10,6 +10,7 @@ using [TSAM](https://github.com/FZJ-IEK3-VSA/tsam).
 ## Key contents
 
 1. `aggregation-testing.ipynb` tests TSAM capabilities in preparation for eventually generating representatives.
+2. `check-timeseries.ipynb` examines timeseries values to see that it makes sense and nothing is missing.
 2. `multihyper.py` contains parallelized functions for speeding up some calculations.
 3. `ne-model-hypertuning.ipynb` tests hypertuning of NE-model representaive period selection.
 4. `representative-period-processing.ipynb` creates representative periods for the NE-model.

@@ -13,7 +13,7 @@ using [TSAM](https://github.com/FZJ-IEK3-VSA/tsam).
 2. `check-timeseries.ipynb` examines timeseries values to see that it makes sense and nothing is missing.
 2. `multihyper.py` contains parallelized functions for speeding up some calculations.
 3. `ne-model-hypertuning.ipynb` tests hypertuning of NE-model representaive period selection.
-4. `representative-period-processing.ipynb` creates representative periods for the NE-model.
+4. **`representative-period-processing.ipynb` creates representative periods for the NE-model.**
 
 
 ## Setup

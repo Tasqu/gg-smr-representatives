@@ -1,6 +1,6 @@
 # gg-smr-representatives
 
-Representative period selection for the GG-SMR project.
+Representative period selection scripts initially for the GG-SMR project.
 
 Let's see if we can do some representative period selection for the
 [North European Backbone Model](https://github.com/vttresearch/north_european_model)
@@ -40,12 +40,12 @@ The scripts for processing the representative periods are written as Jupyter not
 
 ## Licence
 
-Copyright (c) 2025 Topi Rasku and VTT Technical Research Centre of Finland Ltd.
-
-All rights reserved (for now).
+[MIT](https://mit-license.org/), see `LICENSE` for more information.
 
 
 ## Acknowledgements
+
+Funding for this work was provided by VTT's GG-SMR-2025 project.
 
 As per the citation request in the [TSAM](https://github.com/FZJ-IEK3-VSA/tsam) repository:
 

@@ -1,6 +1,6 @@
 # gg-smr-representatives
 
-Representative period selection scripts initially for the GG-SMR project.
+Representative period selection from the Backbone North European model dataset using TSAM, initially made for the GG-SMR-2025 project.
 
 Let's see if we can do some representative period selection for the
 [North European Backbone Model](https://github.com/vttresearch/north_european_model)
